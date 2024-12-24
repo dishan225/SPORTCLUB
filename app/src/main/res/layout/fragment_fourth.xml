@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_mbappe"
+    tools:context=".FourthFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_mbappe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kylian Mbappé"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/image_mbappe"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/text_mbappe"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/mbappe" />
+
+        <TextView
+            android:id="@+id/text2_mbappe"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Kylian Mbappé is a French professional footballer who plays for Paris Saint-Germain and the French national team. A World Cup winner, he is known for his speed and finishing ability."
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/image_mbappe"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/quote_text_ronaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“The speedster destined for glory.”"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:textAlignment="center"
+            android:layout_below="@id/text2_mbappe"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</FrameLayout>

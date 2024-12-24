@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_ronaldo"
+    tools:context=".SecondFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/text_ronaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cristiano Ronaldo"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+
+        <ImageView
+            android:id="@+id/image_ronaldo"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/text_ronaldo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ronaldo"
+            android:contentDescription="Cristiano Ronaldo Image" />
+
+        <!-- Player Description -->
+        <TextView
+            android:id="@+id/text2_ronaldo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Cristiano Ronaldo is a Portuguese professional footballer who plays as a forward for Al-Nassr and the Portugal national team. He has won numerous Ballon d'Or awards and Champions League titles."
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/image_ronaldo"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/quote_text_ronaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“A goal-scoring machine and a true athlete.”"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:textAlignment="center"
+            android:layout_below="@id/text2_ronaldo"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+</FrameLayout>

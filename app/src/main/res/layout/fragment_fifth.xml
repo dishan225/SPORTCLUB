@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_lewandowski"
+    tools:context=".FifthFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Player Name -->
+        <TextView
+            android:id="@+id/text_lewandowski"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robot Lewandowski"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <!-- Player Image -->
+        <ImageView
+            android:id="@+id/image_lewandowski"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/text_lewandowski"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/robert" /> <!-- Use your robot Lewandowski image -->
+
+
+        <!-- Player Description -->
+        <TextView
+            android:id="@+id/text2_lewandowski"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Robot Lewandowski is a futuristic robot designed to emulate the legendary skills of the footballer Robert Lewandowski. Engineered for precision and performance on the field."
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/image_lewandowski"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Quote Text -->
+        <TextView
+            android:id="@+id/quote_text_lewandowski"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“A robot version with the precision of a football legend.”"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:textAlignment="center"
+            android:layout_below="@id/text2_lewandowski"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</FrameLayout>

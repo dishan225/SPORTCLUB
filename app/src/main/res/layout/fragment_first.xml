@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment2"
+    tools:context=".SecondFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lionel Messi"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+
+        <ImageView
+            android:id="@+id/image_messi"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/messi" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lionel Messi is an Argentine professional footballer, widely considered one of the greatest players of all time. He plays as a forward for Inter Miami and the Argentina national team. Messi has won 7 Ballon d'Or awards, the most in history, and led Argentina to victory in the 2021 Copa América."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="8dp"
+            android:textAlignment="center"
+            android:layout_below="@id/image_messi"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/quote_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="“The greatest player of all time.”"
+            android:textSize="18sp"
+            android:textColor="@android:color/darker_gray"
+            android:textAlignment="center"
+            android:layout_below="@id/text2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
